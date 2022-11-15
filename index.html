@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Documento</title>
+    <!--Javascript mensagem de bem vindo-->
+    <script>Funcao(" Obrigado por acessar a minha página");
+        function Funcao(msg){
+            alert("Olá!" +msg);
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo__container">
+            <div class="logo">
+                <!--Icon-->
+                <i class='bx bx-book'></i>
+                <div class="logo__nome" > Curriculum</div>
+            </div>
+           
+        </div>
+        <!-- imagem perfil da página-->
+        <div class="imagem">
+            <img class="img" src="./assets/img/perfil.jpg" alt="">
+        </div>
+        <!-- Menu da Página-->
+        <ul class="nav__lista">
+            <li>
+                <a href="#sobremim1">
+                    <!--Icon-->
+                    <i class='bx bx-cool' ></i>
+                    <span class="link__sobremim">SOBRE MIM</span>
+                </a>
+            </li>
+            <li>
+                <a href="#formacao1">
+                    <!--Icon-->
+                    <i class='bx bx-shape-square'></i>
+                    <span class="link__sobremim">FORMAÇÃO</span>
+                </a>
+            </li>
+            <li>
+                <a href="#experiencia1">
+                    <!--Icon-->
+                    <i class='bx bx-infinite' ></i>
+                    <span class="link__sobremim">EXPERIÊNCIA</span>
+                </a>
+            </li>
+            <li>
+                <a href="#qualificacao1">
+                    <!--Icon-->
+                    <i class='bx bx-refresh'></i>
+                    <span class="link__sobremim">QUALIFICAÇÕES</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <!--Texto cabeçalho: nome e dados pessoais-->
+    <div class="home__text">
+        <div class="perfil"><b class="cor1">Leandro</b> <b class="cor2">Loffeu Pereira Costa</b></div>
+        <div class="perfil__descricao">
+            <p>Rua Arino de Souza Mattos nº14 - Inoã – Maricá – RJ</p>
+            <p>Telefone: +55(21) 965733199</p>
+            <p>E-mail: leandroloffeu@gmail.com</p>
+            <p>Idade: 38 anos</p>
+            <p>Idioma: Português (Nativo), Inglês (Estudando)</p>
+        </div>
+        <!--Linha horizontal abaixo dos dados pessoais-->
+        <div class="linha-horizontal"></div>
+        <!--Texto sobre mim-->
+        <div class="sobremim" id="sobremim1"><h2>SOBRE MIM</h2></div>
+        <div class="sobremimdesc"><P>Em agosoto de 2000 iniciei a minha carreira na autarquia Federal - ANS
+            onde participei de diversos projetos na Diretoria de Normar e Habilitação das Operadoras. 
+            Contribui na criação do sistema CADOP Cadastro das Operadoras. Um sistema nacional de onde
+            é cadastrada e acompada as operadoras de plano de saúde privado do Brasil. 
+        </P>
+        </div>
+        <div class="sobremimdesc"><P>Em 2020 tive meu primeiro contato com a ferramenta de virtualização VMware na
+            prefeitura municipal de Maricá - RJ e depois de estudar muito, consigo hoje trabalhar na área dando suporte em virtualização.</P>
+        </div>
+        <!--Texto Objetos-->
+        <div class="objetivos"><h2>OBJETIVOS</h2></div>
+        <div class="objetivosdesc"><P>Profissional extremamente competente e comunicativo, com capacidade de 
+            desenvolver atividades gerenciais.</P>
+        </div>
+        <!--Texto Formação-->
+        <div class="formacao" id="formacao1"><h2>FORMAÇÃO</h2></div>
+        <div class="formacaodesc"><P>Ensino Superior: Análise de Sistemas (Comcluído)</P></div>
+        <div class="formacaodesc"><P>Ensino Superior: Engenharia de Software (Cursando)</P></div>
+        <!--Texto Emperiência-->
+        <div class="experiencia" id="experiencia1"><h2>EXPERIÊNCIA</h2></div>
+        <div class="experienciadesc">
+            <li> <!--Texto Emperiência-->
+                    <span class="link__experiencia">
+                        Cargo: Técnico de Produção e Informação Junior – Agosto de 2000 a Janeiro de 2020
+                        <p>Empresa: Agência Nacional de Saúde Suplamentar - ANS</p>
+                        <p>Principais atividades: o serviço de apoio a usuários para suporte e resolução 
+                            de problemas técnicos em informática (Servidores Windows).</p>
+                    </span>
+            </li>
+
+            <li> <!--Texto Emperiência-->
+                <span class="link__experiencia">
+                    Cargo: Suporte Técnico nível 2 – Janeiro de 2021 até.
+                    <p>Empresa: Prefeitura Municipal de Maricá</p>
+                    <p>Principais atividades: atua no monitoramento, acompanhamento e solução de
+                        possíveis falhas em CPD (administração de Servidores Windows, AD, 
+                        Armazenamento e virtualização).</p>
+                </span>
+            </li>
+
+           
+        </div>
+
+        <!--Texto Qualificações-->
+        <div class="qualificacao" id="qualificacao1"><h2>QUALIFICAÇÕES</h2></div>
+        <div class="qualificacaodesc">
+           
+            <li>
+                <span class="link__experiencia">
+                    Formação  HTML e CSS  - Fundação Bradesco - Carga Horária: 66 horas
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Introdução a Rede de Computadores - Fundação Bradesco - Carga Horária: 25 horas
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    IMSO - Introdução ao Micro Sistema Operacional - Carga Horária: 80 horas.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Auxiliar Administrativo - CEIMPRO - Carga Horária: 80 horas.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Estrutura e Tratamento de Processos - ANS - Carga Horária: 66 horas.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Marketing - CEIMPRO - Carga Horária: 30 horas.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Treinamento VMware vRealize Operations: Install, Configure, Manage.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Formação Acessibilidade Web - Alura - Carga Horária: 20 horas
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Microsoft Windows Professional - CEIMPRO- Carga Horária: 80 horas
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Excel Básico - Prefeitura de Maricá - Carga Horária: 120 min.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    E-cidade - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    Manutenção de Equipamentos - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    VIPRO - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+
+            <li>
+                <span class="link__experiencia">
+                    VDI - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+            <li>
+                <span class="link__experiencia">
+                    Processo Administrativo - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+            <li>
+                <span class="link__experiencia">
+                   SGA - Prefeitura de Maricá - Carga Horária: 60 min.
+                </span>
+            </li>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* configuação do corpo*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: unset;
+
+}
+/* configuração do corpo*/
+body{
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+/* Coluna dos links index*/
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px;
+  background: #100a4d;
+  padding: 6px 14px;
+}
+
+/*Titulo acima da foto*/
+.sidebar .logo__container .logo{
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+/*Configuração da logo do titulo acima da foto*/
+.logo__container .logo i{
+  font-size: 25px;
+  margin-right: 5px;
+}
+/*Configuraçãi do titulo acima da foto após o logo*/
+.logo__container .logo .logo__nome{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*.sidebar #btn__menu{
+  position: absolute;
+  color: #fff;
+  left: 25%;
+  top: 6px;
+  font-size: 60px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+}*/
+/*Configuração da imagem na pagina*/
+.imagem{
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+/*Configuração da imagem na pagina*/
+.img{
+  width: 200px;
+  height: 140px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/*configuração dos menus*/
+.sidebar ul{
+  margin-top: 80px;
+}
+/*configuração dos menus*/
+.sidebar ul li{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 0 5px;
+  list-style: none;
+  line-height: 50px;
+  
+}
+/*configuração dos menus*/
+.sidebar ul li a{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transform:  all 0.4s ease;
+  border-radius: 12px;
+}
+/*configuração dos menus efeito ao encostar o cursor do mause*/
+.sidebar ul li a:hover{
+  color: #11101d;
+  background:#fff;
+}
+
+/*configuração dos menus */
+.sidebar ul li a i{
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*configuração do texto */
+.home__text{
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 240px);
+  left: 240px;
+}
+/*configuração do texto nome */
+.home__text .perfil{
+  font-size: 50px;
+  font-weight: 500;
+  color: #1d1b31;
+  margin: 12px;
+  text-decoration: underline;
+}
+/*configuração do texto nome posição dos dados  */
+.home__text .perfil__descricao{
+  margin-left: 12px;
+}
+/*configuração do texto nome cor */
+.cor1{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 40pt;
+}
+/*configuração do texto nome cor */
+.cor2{
+  text-transform: uppercase;
+  color: rgb(194, 112, 12);
+  font-size: 40pt;
+}
+/*configuração do texto nome linha */
+.linha-horizontal {
+  width: 100%;
+  border: 1px solid #000;
+  margin-top: 8px;
+}
+
+/*configuração do texto nome fonte */
+b{
+  font-weight: bold;
+}
+/*configuração do titulo dos textos fonte */
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  padding: 50px 0px 15px 12px;
+}
+/*configuração dos titulo textos */
+.sobremim, .objetivos, .formacao, .experiencia, .qualificacao, .certificacao{
+  padding: 40px 25px 40px;
+}
+/*configuração dos textos */
+.sobremimdesc, .objetivosdesc, .formacaodesc, .certificacaodesc p {
+  padding: 25px;
+  line-height: 30px;
+  font-size: 16pt;
+}
+/*configuração do texto experiencia */
+.experienciadesc LI {
+  padding: 25px;
+  line-height: 28px;
+  font-size: 16pt;
+}
+/*configuração do texto qualificação */
+.qualificacaodesc LI {
+  padding: 25px;
+  line-height: 28px;
+  font-size: 16pt;
+}
